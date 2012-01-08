@@ -1,0 +1,108 @@
+/* Foundation v2.1.4 http://foundation.zurb.com */
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+.container {padding: 0}
+body {
+  background-image: url(../images/bg.jpg);
+  font-family: Georgia,"Times New Roman",Times,serif;
+  color: #626161;
+  font-size: 18px;
+  text-shadow: 0 1px 0 #FDFDFD;
+}
+.container {
+  margin: 20px auto;
+  width: 773px;
+  background-image: url(../images/bg_y.jpg);
+  box-shadow: 0 0px 15px rgba(0,0,0,0.95);
+  padding-bottom: 10px;
+}
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+.section {
+  min-height: 500px;
+}
+#about-book {
+}
+
+#nav {
+  padding: 20px;
+}
+#nav a {
+  color: #787777;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration: none;
+  margin-right: 10px;
+}
+#nav a:hover { color: #5d9cb3;}
+
+h2 {
+  text-align: center;
+  background: #64ACC6;
+  color: #E3E2DF;
+  text-shadow: #444 1px 1px 0px;
+  font-size: 32px;
+  padding: 5px;
+  margin: 20px;
+  border: 1px inset #74bCd6;
+}
+
+div#footer {
+  text-align: center;
+  background: #989D9F;
+  color: #eee;
+  text-shadow: #888 1px 1px 0px;
+  padding: 5px;
+  margin: 0 20px 0px 20px;
+  border: 1px inset #74bCd6;
+}
+
+div.side-image {
+  margin-left: 40px;
+  border: 1px solid #000;
+  background-color: #fff;
+  padding: 10px;
+  height: 200px; width: 200px;
+}
+
+.rotate {
+  -moz-transform: rotate(355deg);
+  -webkit-transform: rotate(355deg);
+  -o-transform: rotate(355deg);
+  -ms-transform: rotate(355deg);
+}
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 3px #ccc;
+  box-shadow:         3px 3px 5px 3px #ccc;
+  
+}
+div.side-image img {
+  height: 200px; width: 200px;
+  border: 1px solid #666;
+}
+
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+

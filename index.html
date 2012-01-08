@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>60 Great Baby Food Recipes</title>
+  
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+  <![endif]-->
+
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+  <div class="container">
+    <!-- header -->
+    <div id="header" class="row">
+      <div class="six columns">
+      &nbsp;
+      </div>
+      <div class="six columns">
+        <div id="nav">
+          <a href="#about-book">the book</a>
+          <a href="#about-author">the author</a>
+          <a href="#buy-now">buy now</a>
+        </div>
+      </div>
+        <h1>60 Great Baby Food Recipes</h1>
+        
+    </div>
+
+    <!-- Home Slider -->
+    <div id="home">
+      <div class="row">
+        <h1>Home</h1>
+        <div class="twelve columns">
+          <div id="featured" style="width:600px; height:370px"> 
+            <img src="images/ragi_powder.JPG" alt="Overflow: Hidden No More" />
+            <img src="images/moong_chaat.JPG" alt="Overflow: Hidden No More" />
+            <img src="images/vermicelli_upma.JPG" alt="Overflow: Hidden No More" />
+            <img src="images/mini_idlies.JPG" alt="Overflow: Hidden No More" />
+          </div>
+
+      </div>
+    </div>
+
+    <!-- About the book -->
+    <div id="about-book" class="section">
+      <div class="row">
+        <div class="twelve columns">
+          <h2>About the Book</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="four columns">
+          <div class="side-image panel rotate">
+            <img src="images/cover.jpg" />
+          </div>
+        </div>
+        <div class="eight columns">
+          When my first daughter was 6 months old, I started researching on various solid foods that I could give her. 
+        </div>
+      </div>
+    </div>
+
+    <!-- About the Author -->
+    <div id="about-author" class="section">
+      <div class="row">
+        <div class="twelve columns">
+          <h2>Roma Sharma - The Author</h2>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Buy Now -->
+    <div id="buy-now" class="section">
+      <div class="row">
+        <div class="twelve columns">
+          <h2>Buy Now</h2>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      Copyright &copy; 2012 Roma Sharma &star; All Rights Reserved
+    </div>
+  </div>
+  <!-- container -->
+
+
+  <!-- Included JS Files -->
+  <script src="javascripts/foundation.js"></script>
+  <script src="javascripts/app.js"></script>
+  <script type="text/javascript">
+     $(window).load(function() {
+         $('#featured').orbit();
+     });
+  </script>
+
+</body>
+</html>
