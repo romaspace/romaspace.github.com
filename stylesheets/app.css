@@ -16,6 +16,7 @@ body {
   font-family: Georgia,"Times New Roman",Times,serif;
   color: #626161;
   font-size: 18px;
+  line-height: 24px;
   text-shadow: 0 1px 0 #FDFDFD;
 }
 .container {
@@ -40,7 +41,7 @@ body {
 }
 #nav a {
   color: #787777;
-  font-size: 20px;
+  font-size: 18px;
   font-style: italic;
   font-weight: normal;
   text-decoration: none;
@@ -48,7 +49,7 @@ body {
 }
 #nav a:hover { color: #5d9cb3;}
 
-h2 {
+.section_title {
   text-align: center;
   background: #64ACC6;
   color: #E3E2DF;
@@ -57,6 +58,17 @@ h2 {
   padding: 5px;
   margin: 20px;
   border: 1px inset #74bCd6;
+}
+.sub_title {
+  font-size: 24px;
+  line-height: 24px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+p { 
+  margin: 20px;
+  line-height: 24px;
 }
 
 div#footer {
@@ -92,6 +104,9 @@ div.side-image {
 div.side-image img {
   height: 200px; width: 200px;
   border: 1px solid #666;
+}
+
+img.cover {
 }
 
 /* -----------------------------------------
