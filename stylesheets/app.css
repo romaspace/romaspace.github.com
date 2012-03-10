@@ -13,11 +13,17 @@
 .container {padding: 0}
 body {
   background-image: url(../images/bg.jpg);
-  font-family: Georgia,"Times New Roman",Times,serif;
+  /*font-family: serif, Georgia,"Times New Roman",Times; */
+  font-family: 'Simonetta', cursive;
+  /*font-family: 'Prosto One', cursive; */
+  
   color: #626161;
   font-size: 18px;
   line-height: 24px;
   text-shadow: 0 1px 0 #FDFDFD;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Prosto One', cursive;
 }
 .container {
   margin: 20px auto;
@@ -66,7 +72,7 @@ body {
   padding-right: 40px;
 }
 
-p { 
+p,table { 
   margin: 20px;
   line-height: 24px;
 }
@@ -100,6 +106,9 @@ div.side-image {
   -webkit-box-shadow: 3px 3px 5px 3px #ccc;
   box-shadow:         3px 3px 5px 3px #ccc;
   
+}
+img.book-image {
+  padding: 0 20px 10px 0;
 }
 div.side-image img {
   height: 200px; width: 200px;
