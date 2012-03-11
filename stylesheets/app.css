@@ -23,7 +23,7 @@ body {
   text-shadow: 0 1px 0 #FDFDFD;
 }
 h1, h2, h3, h4, h5 {
-  font-family: 'Prosto One', cursive;
+  font-family: 'Cutive', Georgia, Serif;
 }
 .container {
   margin: 20px auto;
@@ -108,7 +108,9 @@ div.side-image {
   
 }
 img.book-image {
-  padding: 0 20px 10px 0;
+  margin: 0 20px 10px 0;
+  border: 4px solid #fff;
+  box-shadow: 4px 4px #bbb;
 }
 div.side-image img {
   height: 200px; width: 200px;
