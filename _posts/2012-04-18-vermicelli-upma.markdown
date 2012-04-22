@@ -7,7 +7,7 @@ categories:
 - baby food recipes
 ---
 <div class="post group">
-<IMG SRC="/images/vermicelli_upma.jpg" class="recipe" /></p>
+<IMG SRC="/images/vermicelli_upma.JPG" class="recipe" /></p>
 <h2>Upma</h2>
 
 <p>Upma can be made from a variety of base ingredients like semolina, wheat/ rice/ ragi vermicelli, brown/ white beaten rice, etc. Using your child's favorite vegetables and alternate base ingredients you can creatively make an upma to suit your baby.</p>

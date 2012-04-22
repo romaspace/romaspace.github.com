@@ -7,7 +7,7 @@ categories:
 - baby food recipes
 ---
 <div class="post group">
-<IMG SRC="/images/sprouts_bhel.jpg" class="recipe" />
+<IMG SRC="/images/sprouts_bhel.JPG" class="recipe" />
 <h2>Moong Sprouts Bhel</h2>
 <p>The vitamins, minerals and protein content of green moong dal can be substantially increased by sprouting.
 
