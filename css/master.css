@@ -189,6 +189,34 @@ h4 {
 	background-color: #6c5f77;
 }	
 
+/** Table of contents style 
+--------------------------------------------------------------*/
+.toc {
+	padding: 40px 0 0 70px;
+	background: url(../img/bg-noise.png) repeat;
+}
+.toc h2  {
+	color: #5b4d68;
+	width: 470px;
+	font-size: 19px;
+	line-height: 18px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	margin: 0 0 25px 0;
+}
+
+.toc .toc_h1 {
+    color: #5b4d68;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.toc .toc_h2 {
+    margin-left: 20px;
+}
+.toc .toc_h2 a {
+    font-weight: bold;
+}
 /** blog post style
 ------------------------------------------------------------- */
 
@@ -221,10 +249,13 @@ h4 {
 }
 
 .post ul, .post ol {
-  list-style: inherit;
+  list-style-type: disc;
 	color: #303030;
 	width: 430px;
 	margin: 0 0 15px 40px;
+}
+.post ol {
+  list-style-type: decimal;
 }
 .post p, .post blockquote {
 	color: #303030;
@@ -418,6 +449,7 @@ h4 {
 .features div {
 	float: left;
 	width: 223px;
+    height: 140px;
 	margin: 0 78px 25px 0;
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.75);
 }

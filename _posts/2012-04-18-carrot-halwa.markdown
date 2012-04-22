@@ -1,6 +1,6 @@
 ---
 permalink: /carrot-halwa
-layout: default
+layout: post
 title: Carrot Halwa
 published: true
 categories:

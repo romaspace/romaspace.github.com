@@ -1,6 +1,6 @@
 ---
 permalink: /aata-halwa
-layout: default
+layout: post
 title: Aata Halwa
 published: true
 categories:
@@ -44,6 +44,3 @@ categories:
 </div>
 </div>
 
-<div class="final group">
-&nbsp;
-</div>
