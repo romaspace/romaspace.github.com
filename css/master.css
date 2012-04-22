@@ -189,7 +189,48 @@ h4 {
 	background-color: #6c5f77;
 }	
 
+/** blog post style
+------------------------------------------------------------- */
 
+.post {
+	padding: 40px 0 0 70px;
+	background: url(../img/bg-noise.png) repeat;
+}
+
+.post img.recipe {
+    border: 10px solid white;
+    box-shadow: 5px 5px 10px #333333;
+    float: right;
+    margin: 60px 45px 0 0;
+    width: 380px
+}
+
+.post h2, .post h3 {
+	color: #5b4d68;
+	width: 470px;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	margin: 0 0 25px 0;
+}
+
+.post h3 { 
+  font-size: 24px; 
+  margin: 0 0 10px 0;
+}
+
+.post ul, .post ol {
+  list-style: inherit;
+	color: #303030;
+	width: 430px;
+	margin: 0 0 15px 40px;
+}
+.post p, .post blockquote {
+	color: #303030;
+	width: 430px;
+	margin: 0 0 15px 0;
+}
 /* INTRO & PRICE
 ------------------------------------------------------------- */
 
@@ -207,7 +248,9 @@ h4 {
 	top: -55px;
 }
 
-.intro h2 {
+.intro h3 { font-size: 24px; }
+
+.intro h2  {
 	color: #5b4d68;
 	float: left;
 	width: 470px;
