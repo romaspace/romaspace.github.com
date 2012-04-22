@@ -7,7 +7,7 @@ categories:
 - baby food recipes
 ---
 <div class="post group">
-<IMG class="recipe" SRC="/images/carrot_halwa.jpg" />
+<IMG class="recipe" SRC="/images/carrot_halwa.JPG" />
 <h2>Carrot Halwa</h2>
 
 
