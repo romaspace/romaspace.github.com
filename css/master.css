@@ -38,7 +38,7 @@ p {
 }
 
 a, a:visited {
-	color: #493a57;
+	color: #493aa7;
 	outline: none;
 	text-decoration: none;
 }
@@ -248,13 +248,13 @@ h4 {
   margin: 0 0 10px 0;
 }
 
-.post ul, .post ol {
+.post ul, .post ol, .final ol {
   list-style-type: disc;
 	color: #303030;
 	width: 430px;
 	margin: 0 0 15px 40px;
 }
-.post ol {
+.post ol, .final ol {
   list-style-type: decimal;
 }
 .post p, .post blockquote {
@@ -297,6 +297,7 @@ h4 {
 	float: left;
 	width: 430px;
 	margin: 0 0 15px 0;
+    line-height: 1.5em;
 }
 
 .price {
@@ -652,4 +653,10 @@ h4 {
 	height: 0; 
 	clear: both; 
 	visibility: hidden;
+}
+
+.announcement {
+  background: none repeat scroll 0 0 #FFFF66;
+    border: 1px solid #CCCC55;
+    padding: 10px;
 }
