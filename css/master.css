@@ -11,7 +11,7 @@ Author:	justine@gentlecode.net
 
 body {
 	background: url(../img/bg-noise.png) repeat;
-	font: normal 11px/18px Arial, sans-serif;
+	font: normal 13px/18px Arial, sans-serif;
 	color: #86847d;
 }
 
@@ -620,6 +620,7 @@ h4 {
 
 .footer {
 	width: 930px;
+	font-size:15px;
 	margin: 15px auto;
 }
 
