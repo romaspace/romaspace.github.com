@@ -1,163 +1,514 @@
----
-layout: default
----
-		
-		<!-- INTRO -->
-		<div class="intro group">
-			
-			<img src="/img/book.png" alt="" class="book" />
-			<h2>60 nutritious, Indian vegetarian baby food dishes that you can start feeding your toddler 6 months onwards.</h2>
-            <p>The book contains a set of 60 <b>Indian Vegetarian recipes</b> categorized based on the baby’s age. It takes you through the stages of the baby’s growth from 6 to 18 months. The recipes contain notes to help you get a good end result and nutritional value of the dish being prepared that will help you decide whats best for your baby.</p>
-            <p>The book also contains information on <b>how to introduce solids</b> to the baby - the age at which you can start nutritive food of the right texture for your baby. Tips have been provided on how to tackle a fussy eater and a baby who dislikes milk. </p>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Define Charset -->
+    <meta charset="utf-8"/>
 
-		</div><!-- /intro -->
-		
-		<!-- PRICE -->
-		<div class="price group">
-			
-			<a href="http://www.amazon.com/Great-Recipes-your-Baby-ebook/dp/B007QVHWDO/" class="button pdf">Buy E-Book <span>5.89$</span></a>
-			<a href="http://www.amazon.com/gp/reader/B007QVHWDO/ref=sib_dp_kd#reader-link" class="button paper">Look Inside <span></span></a>
-			
-		</div><!-- /price -->
-		
-		<!-- TESTIMONIALS -->
-<!--
-		<div class="testimonials group">
-			
-			<div class="carousel">
-			
-				<a class="buttons prev" href="index.html#">previous</a>
-				<div class="viewport">				
-					<div class="slider overview group">
-					
-						<div class="quote">
-							<blockquote><p>Sed in nulla eu est vestibulum convallis. Praesent ante magna, molestie vel porttitor vel, aliquet ut dolor. Proin molestie massa eu tellu.</p></blockquote>
-							<cite><a href="index.html#">~ Dr. Anuradha HS, Pediatrician</a></cite>
-						</div>
-									
-						<div class="quote">
-							<blockquote><p>Sed in nulla eu est vestibulum convallis. Praesent ante magna, molestie vel porttitor vel, aliquet ut dolor. Proin molestie massa eu tellu.</p></blockquote>
-							<cite><a href="index.html#">~ John Doe, Company Owner</a></cite>
-						</div>
-						
-						<div class="quote">
-							<blockquote><p>Sed in nulla eu est vestibulum convallis. Praesent ante magna, molestie vel porttitor vel, aliquet ut dolor. Proin molestie massa eu tellu.</p></blockquote>
-							<cite><a href="index.html#">~ John Doe, Company Owner</a></cite>
-						</div>
-						
-						<div class="quote">
-							<blockquote><p>Sed in nulla eu est vestibulum convallis. Praesent ante magna, molestie vel porttitor vel, aliquet ut dolor. Proin molestie massa eu tellu.</p></blockquote>
-							<cite><a href="index.html#">~ John Doe, Company Owner</a></cite>
-						</div>
-									
-						<div class="quote">
-							<blockquote><p>Sed in nulla eu est vestibulum convallis. Praesent ante magna, molestie vel porttitor vel, aliquet ut dolor. Proin molestie massa eu tellu.</p></blockquote>
-							<cite><a href="index.html#">~ John Doe, Company Owner</a></cite>
-						</div>
-						
-						<div class="quote">
-							<blockquote><p>Sed in nulla eu est vestibulum convallis. Praesent ante magna, molestie vel porttitor vel, aliquet ut dolor. Proin molestie massa eu tellu.</p></blockquote>
-							<cite><a href="index.html#">~ John Doe, Company Owner</a></cite>
-						</div>
-															
-					</div>
-				</div>
-				<a class="buttons next" href="index.html#">next</a>
-				
-			</div>
-		
+    <!-- Page Title -->
+    <title>60 Great Baby Food Recipes - A baby cookbook for toddlers by Roma Sharma</title>
+
+    <!-- Responsive Metatag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Description and Author -->
+    <meta name="description" content="60 nutritious, Indian vegetarian baby food that you can start feeding your toddler 6 months onwards">
+    <meta name="author" content="Roma Sharma">
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+    <!-- Stylesheet
+    ===================================================================================================  -->
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/bootstrap/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    
+    <!-- Font icons -->
+    <link href="font/fontello.css" rel="stylesheet" >
+    <!--[if IE 7]>
+    <link href="font/fontello-ie7.css" rel="stylesheet" ><![endif]-->
+
+	<!-- Custom Template Styles -->
+    <link href="css/style.css" rel="stylesheet" media="screen">
+
+	<!-- Media Queries -->
+    <link href="css/media-queries.css" rel="stylesheet" media="screen">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <script src="js/modernizr.custom.js"></script>
+
+</head>
+
+
+<body>
+
+    <!-- Main Menu -->
+    <nav class="navbar navbar-fixed-top animated fadeInDown delay2">
+        <div class="navbar-inner">
+            <div class="container">
+                <div class="wrapp">
+        
+                    <!--Mobile Main Menu-->
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!--Mobile Main Menu-->
+
+                    <!--Desktop Main Menu-->
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                              <li><a href="#menu-home">Home</a></li>
+                              <li><a href="#menu-book">Book</a></li>
+                              <li><a href="#menu-gallery">Gallery</a></li>
+                              <li><a href="#menu-buy">Buy</a></li>
+                              <li><a href="#menu-author">Author</a></li>
+                              <li><a data-toggle="modal" href="#myModal">contact</a></li>
+                        </ul>
+                     </div>
+                     <!--End Desktop Main Menu-->
+
+                 </div>    
+            </div><!--/.container -->
+        </div><!--/.nav-inner -->
+    </nav>
+    <!-- End Main Menu -->
+
+    <!-- Contact Modal -->
+    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="myModalLabel">Contact Us!</h3>
+        </div>
+        <div class="modal-body">
+            <div id="loading" style="display: none" class='alert'>
+            <a class='close' data-dismiss='alert'>×</a>
+                Loading
+            </div>
+            <div id="response"></div>
+            <!-- Form -->
+            <form id="form-contact" class="form_online" method="post" action="http://minimal.coralixthemes.com/book/demo">
+                <label class="no">Name</label>
+                <input type="text" placeholder="Name" name="Name" required>
+                <label class="no">Email</label>
+                <input type="email" placeholder="Email" name="Email" required>
+                <label class="no">Message</label>
+                <textarea placeholder="Your Message" name="message" required></textarea>
+                <h5>All fields with an * are required.</h5>
+                <input type="submit" value="Send" class="send">
+            </form>
+            <!-- Form -->
+        </div>
+        <div class="modal-footer"></div>
+    </div>
+
+
+    <!-- Header Section -->
+    <header class="BeanBGAnimate" id="menu-home">
+        <div class="container">
+        	<div class="wrapp">
+	            <div class="row-fluid text-center logo animated fadeInUp delay3">
+                <h1>60 Great Baby Food Recipes</h1>  
+	            </div>    
+	            <div class="row-fluid">
+	                <div class="span6 pull-right">
+	                   <h1 class="animated fadeInRight delay4">60 nutritious, Indian vegetarian baby food dishes that you can start feeding your toddler 6 months onwards.</h1>
+                       <h3 class="animated fadeInRight delay5"></h3>
+                       <div class="buttons bigfigure animated fadeInUp delay6">
+                           <a href="#menu-book" class="btn tour"> Know More <img src="img/btn-tour-icon.png" alt="icon"> </a>
+                           <a href="#menu-buy" class="btn download">Buy at Rs 320/- <img src="img/btn-down-icon.png" alt="icon"> </a>
+                       </div>
+	                </div>
+	                <div class="span6 text-center bigfigure animated fadeInUp delay6">
+                         <img alt="logo" src="img/roma/book_cover_image.JPG">
+	                </div>
+	            </div>
+            </div>   
+        </div>
+    </header>
+    <!-- End Header Section -->
+
+
+    <!-- Features Section -->
+    <section class="features generic animated fadeInUp delay8" id="menu-book">  
+    	<div class="container">
+    		<div class="wrapp">
+
+		        <!-- Title -->
+		        <div class="row-fluid text-center title">
+		            <div class="divider"></div>
+		            <h1>60 Great Baby Food Recipes</h1>
+		        </div>
+		        <!-- End Title -->
+
+            <div class="row-fluid">
+              <div class="span6">
+                <p>This book is an encapsulation of my journey as a mother and my learnings in the process introducing solids to my babies. It contains 60 handpicked, vegetarian recipes that have been reviewed by experts like a pediatrician and nutritionist to ensure accuracy in the information provided. The focus is on babies between the age of 6-18 months. The recipes have been categorized based on the baby's age. </p>
+              </div>
+
+              <div class="span6">
+                <p>In the first one year of a baby's development there are several restricted ingredients. Food made for them changes every few months. Along with that comes the added responsibility of feeding them healthy food. Since babies can't express themselves, their likes and dislikes have always been a mystery. 
+The main aim of this book is to simplify this phase by creating food that is not only nutritious but also liked by the baby. Besides recipes the book contains information on travel food, medicinal food, tips to tackle fussy eaters and more....  </p>
+              </div>
+            </div>
+
+		        <div class="row-fluid">
+		            <div class="span6">
+		                <div class="item">
+		                    <h2 class="pull-left"> <img src="img/features-bike.png" alt="icon" class="pull-left">  Nutritious Health Recipes </h2>
+		                    <p>60 recipes have been divided in 4 phases of a baby's growth from 6 months to above one year. Each phase has its own challenges of right food for, digestion and nutrient intake..</p>
+		                </div>
+		                <div class="item">
+		                    <h2 class="pull-left"> <img src="img/features-showcase.png" alt="icon" class="pull-left">  Home Remedies </h2>
+		                    <p>In the first one year babies often face problems like cold, stomach ache due to gas, diarrhea, nappy rash, constipation etc; In this book you will find simple home remedies to tackle these common ailments.</p> 
+		                </div>        
+		            </div>
+		   
+		            <div class="span6">
+		                <div class="item">
+		                    <h2 class="pull-left"> <img src="img/features-screen.png" alt="icon" class="pull-left"> Vegetarian Recipes</h2>
+		                    <p>This book contains only Indian Vegetarian Recipes. India's diversity is reflected in this book as it covers recipes from different parts of the country.</p> 
+		                </div>
+		                <div class="item">
+		                    <h2 class="pull-left"> <img src="img/features-support.png" alt="icon" class="pull-left"> Travel Food </h2>
+		                    <p>Travelling with a baby can be quite a challenge as its risky to feed a little baby anything bought outside. Use travel tips provided in this book to have a great journey.</p> 
+		                </div>
+		            </div>
+		        </div>
+		    </div>
 		</div>
-	-->	
-		<!-- FEATURES -->
-		<div class="features group">
-		
-			<div>
-				<h4 class="ebook"><a href="/table-of-contents">Rich Table of Contents</a></h4>
-				<p>60 Recipes have been divided in 4 phases of babies growth from 6 month to 2 year. Each phase has its own challenges of right food for digestion and nutrient intake. <a href="/table-of-contents"><b>Have a look at the table of contents</b></a>.</p>
-			</div>
-			<div>
-				<h4 class="hq">High Quality Images </h4>
-				<p>A picture often speaks a thousand words. This book contains high quality images of recipes which will definitely appeal to you and to your baby. <br/></p>
-			</div>
-			<div>
-				<h4 class="epub">Vegetarian Recipes</h4>
-				<p>This book contains only Indian Vegetarian Recipes. India's diversity is reflected in this book as it covers recipes from North India to the south of Vindhyas.</p>
-			</div>
-			<div>
-				<h4 class="graph">Introducing Solids to Baby</h4>
-                <p>Age at which you can start nutritive food of the right texture for your baby. Tips have been provided on how to tackle a fussy eater and a baby who dislikes milk.</p>
-			</div>
-			<div>
-				<h4 class="paper">Home Remedies</h4>
-                <p>In the first one year babies often face problems like cold, stomach ache due to gas, diarrhea, nappy rash, constipation etc; This book provides some of those <b>home remedies</b>.</p>
-			</div>
-			<div>
-				<h4 class="word">Travel Food</h4>
-                <p>However, travelling with a baby can be quite a challenge as its risky to feed a little baby anything bought outside. Use tips from this to have a safe journey.</p>
-			</div>
-		
-		</div><!-- /features -->
-		
-		<!-- SAMPLES -->
-		<div class="samples group">
-			
-			<div class="carousel">
-			
-				<a class="buttons prev" href="index.html#">previous</a>
-				
-				<div class="viewport">
-					<ul class="overview">
-						<li>
-                          <a href="/sprouts-bhel" ><img src="/images/sprouts_bhel.JPG" alt="Sprouts Bhel" width=230 /></a> 
-                          <a href="/sprouts_bhel" class="zoom" rel="fancybox1">Zoom</a>
-                        </li>
-						
-                        <li>
-                          <a href="/aata-halwa" rel="fancybox1"><img src="/images/aata_halwa.JPG" alt="" /></a> 
-                          <a href="/aata-halwa" class="zoom" >Zoom</a>
-                        </li>
+    </section>
+    <!-- End Features Section -->
 
-						<li>
-                          <a href="/moong-chaat" rel="fancybox1"><img src="/images/moong_chaat.JPG" alt="" /></a> 
-                          <a href="/moong-chaat" class="zoom" rel="fancybox1">Zoom</a>
-                        </li>
 
-						<li>
-                            <a href="/vermicelli-upma" rel="fancybox1"><img src="/images/vermicelli_upma.JPG" alt="" /></a> 
-                            <a href="/vermicelli-upma" class="zoom" rel="fancybox1">Zoom</a>
-                        </li>
+    <!-- Gallery Section -->
+    <section class="gallery generic" id="menu-gallery">
+	    <div class="container">
+	    	<div class="wrapp">
+	    		
+	    		<!-- Title -->
+		        <div class="row-fluid text-center title">
+		            <div class="divider"></div>
+		            <h1>recipes at a glance </h1>
+		            <p>Every baby has unique likes and dislikes. The baby, not being able to speak, adds more responsibility on our part to look for patterns of acceptance or rejection</p>
+		        </div>
+		        <!-- End Title -->
 
-						<li>
-                            <a href="/mini-idlies" rel="fancybox1"><img src="/images/mini_idlies.JPG" alt="" /></a> 
-                            <a href="/mini-idlies" class="zoom" rel="fancybox1">Zoom</a>
-                        </li>
+                <div class="row-fluid">
 
-						<li>
-                          <a href="/carrot-halwa" rel="fancybox1"><img src="/images/carrot_halwa.JPG" alt="" /></a> 
-                          <a href="/carrot-halwa" class="zoom" rel="fancybox1">Zoom</a>
-                        </li>
+                    <div class="span4">
+                        <a href="img/roma/mini_idlies.JPG" class="lightbox_image port-item" title="Mini Idlis">
+                            <span class="hovers"> + </span>
+                            <img src="img/roma/mini_idlies.JPG" alt="Mini Idlis">
+                        </a>
+                        <div class="imageinfo">
+                            <h2 class="text-center"><a href="img/roma/mini_idlies.JPG" class="lightbox_image" title="Mini Idlies"> Mini Idlis </a></h2>
+                            <p class="text-center">After the age of 8 months babies can be given soft idlies, dosas, ect.</p>
+                        </div>
+                    </div>
 
-<!--
-						<li><a href="/img/sample-page.jpg" rel="fancybox"><img src="/img/sample-page.jpg" alt="" /></a> <a href="/img/sample-page.jpg" class="zoom" rel="fancybox">Zoom</a></li>
-						<li><a href="/img/sample-page.jpg" rel="fancybox"><img src="/img/sample-page.jpg" alt="" /></a> <a href="/img/sample-page.jpg" class="zoom" rel="fancybox">Zoom</a></li>
--->
-					</ul>
-				</div>
-				
-				<a class="buttons next" href="index.html#">next</a>
-				
+                    <div class="span4">
+                        <a href="img/roma/carrot_halwa.JPG" class="lightbox_image port-item" title="Carrot Halwa">
+                            <span class="hovers"> + </span>
+                            <img src="img/roma/carrot_halwa.JPG" alt="Carrot Halwa">
+                        </a>
+                        <div class="imageinfo">
+                            <h2 class="text-center"><a href="img/roma/carrot_halwa.JPG" class="lightbox_image" title="Carrot Halwa"> Carrot Halwa </a></h2>
+                            <p class="text-center">The natural sweetness of carrots makes this halwa or mash appetizing for a trial.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="span4">
+                        <a href="img/roma/moong_chaat.JPG" class="lightbox_image port-item" title="Moong Chaat">
+                            <span class="hovers"> + </span>
+                            <img src="img/roma/moong_chaat.JPG" alt="Moong Chaat">
+                        </a>
+                        <div class="imageinfo">
+                            <h2 class="text-center"><a href="img/roma/moong_chaat.JPG" class="lightbox_image" title="Moong Chaat"> Moong Chaat </a></h2>
+                            <p class="text-center">Green moong dal serves as a great pick-n-eat dish for the baby.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row-fluid">
+
+                    <div class="span4">
+                        <a href="img/roma/sprouts_bhel.JPG" class="lightbox_image port-item" title="Sprouts Bhel">
+                            <span class="hovers"> + </span>
+                            <img src="img/roma/sprouts_bhel.JPG" alt="Sprouts Bhel">
+                        </a>
+                        <div class="imageinfo">
+                            <h2 class="text-center"><a href="img/roma/sprouts_bhel.JPG" class="lightbox_image" title="Sprouts Bhel"> Sprouts Bhel </a></h2>
+                            <p class="text-center">The vitamin, mineral and protein content of green moong dal can be substantially increased by sprouting.</p>
+                        </div>
+                    </div>
+
+                    <div class="span4">
+                        <a href="img/roma/vermicelli_upma.JPG" class="lightbox_image port-item" title="Vermicelli Upma">
+                            <span class="hovers"> + </span>
+                            <img src="img/roma/vermicelli_upma.JPG" alt="Vermicelli Upma">
+                        </a>
+                        <div class="imageinfo">
+                            <h2 class="text-center"><a href="img/roma/vermicelli_upma.JPG" class="lightbox_image" title="Vermicelli Upma"> Vermicelli Upma </a></h2>
+                            <p class="text-center">Upma can be made using a variety of base ingredients like vermicelli, semolina, beaten rice, etc.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="span4">
+                        <a href="img/roma/aata_halwa.JPG" class="lightbox_image port-item" title="Aata Halwa">
+                            <span class="hovers"> + </span>
+                            <img src="img/roma/aata_halwa.JPG" alt="Aata Halwa">
+                        </a>
+                        <div class="imageinfo">
+                            <h2 class="text-center"><a href="img/roma/aata_halwa.JPG" class="lightbox_image" title="Aata Halwa"> Aata Halwa </a></h2>
+                            <p class="text-center">This soft mash made out of roasted whole wheat flour is not only delicious but also easy to swallow.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
 			</div>
-								
-		</div><!-- /samples -->
-		
-		<!-- FINAL -->
-		<div class="final group">
-			<h3>About The Author</h3>
-            <p>Roma is a software engineer by education and a chef by passion. After working for 6 years in the IT industry she turned a home maker. With two kids now she spends most of her time creating new dishes to excite them with. Besides cooking, she has hobbies like photography and <a href="http://romasharma.com">blogging</a>. She loves experimenting with different types of cuisines and seldom leaves a restaurant without learning something new.  </p>
-            <p>When Roma first had a baby she realized that baby food is a confusing subject. The type of food that can be fed to a baby at each stage of growth is something that needs to be checked every time something new is introduced. Her baby’s pediatrician was helpful in this regard. She would clarify doubts on ingredients permitted for the baby at each stage. She also had the good fortune of talking to her grandmother about the dishes she use to feed her kids. Her mother shared knowledge she had on medicinal and travel food.</p>
-          <p>Roma started <a href="http://romasharma.com">blogging</a> these recipes when her first baby was 8 months old. Along with blogging, she started writing this book when she introduced solids to her first baby 4 years ago. Now with another 18 - month old she has updated more recipes and has compiled all the information she has, to create a book that is easy to consume.</p>
-          <p>You can follow me on <a href="http://twitter.com/romasharma">twitter (@romasharma)</a>, <a href="http://facebook.com/romaspace">friend me on facebook</a> or just drop me a mail at roma(at)romasharma(dot)com</p>
+		</div>
+    </section>
+    <!-- End Gallery Section -->
 
-          <p><a href="http://romasharma.com" class="button">More about me</a></p>
-		</div><!-- /final -->
-	
+
+    <!-- Information Section -->
+    <section class="information" id="menu-buy">
+    	<div class="container">
+    		<div class="wrapp">
+
+	    		<!-- Title -->
+		        <div class="row-fluid text-center title">
+		            <div class="divider"></div>
+		            <h1>Buy 60 Great Baby Food Recipes</h1>
+		            <p>This unique baby food cookbook is available both as an e-book and as a limited paper back edition. Choose the one that suits you best.</p>
+		        </div>
+		        <!-- End Title -->
+    			
+    			<div class="row-fluid box one">
+    				<div class="span6">
+    					<h3>Amazon Kindle E-book</h3>
+              <p>Almost 6 years ago I staring publishing Indian baby food recipes on my blog and I received amazing responses from moms all over. Inspired by this, on 13th Apr 2012, “<a href="http://www.amazon.com/Great-Recipes-your-Baby-ebook/dp/B007QVHWDO/">60 Great Baby Food Recipes</a>” eBook was made available on KDP amazon, for instant global access. The eBook has completed more than a year and continues to to receive patronage from Indian moms, globally.</p>
+                        <a href="http://www.amazon.com/Great-Recipes-your-Baby-ebook/dp/B007QVHWDO/" class="btn">Buy e-Book Link <img src="img/buynow-icon.png" alt="icon"></a>
+    				</div>
+    				<div class="span6">
+                        <div id="myCarouselimg" class="carousel slide">
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarouselimg" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarouselimg" data-slide-to="1"></li>
+                                <li data-target="#myCarouselimg" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item"><img src="img/roma/book.png" alt="Amazon Kindle Book"></div>
+                                <div class="item"><img src="img/roma/book.png" alt="Amazon Kindle Book"></div>
+                                <div class="item"><img src="img/roma/book.png" alt="Amazon Kindle Book"></div>
+                            </div>                                         
+                        </div>            
+    				</div>
+    			</div>
+
+    			<div class="row-fluid box two">
+    				<div class="span6">
+    					<img src="img/roma/paperback.JPG" alt="image">
+    				</div>
+    				<div class="span6">
+    					<h3>Limited Paperback Edition </h3>
+    					<p>Based on the growing requests we have now released a paperback edition of the book. The book is an A5-sized fully illustrated, premium quality book designed to be not only informative but also visually appealing. It is a perfect gift for a little baby when you first visit him or her.</p>
+              <a href="http://babyfoodrecipes.wufoo.com/forms/z7x4m1/" onclick="window.open(this.href,  null, 'height=625, width=680, toolbar=0, location=0, status=1, scrollbars=1, resizable=1'); return false" class="btn">Buy Book <img src="img/buynow-icon.png" alt="icon"></a>
+    				</div>
+    			</div>
+
+    		</div>
+    	</div>
+    </section>
+    <!-- End Information Section -->
+
+
+    <!-- Testimonials Section -->
+    <section class="testimonials BeanBGAnimateHori">
+    	<div class="container">
+    		<div class="wrapp">
+    			<div class="row-fuid title">
+                    <h1 class="text-center">what happy people are saying</h1>         
+                </div>
+
+                <div class="row-fluid">
+                        <div id="myCarouseltest" class="carousel slide">
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarouseltest" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarouseltest" data-slide-to="1"></li>
+                                <li data-target="#myCarouseltest" data-slide-to="2"></li>
+                                <li data-target="#myCarouseltest" data-slide-to="3"></li>
+                            </ol>
+
+                            <!-- Carousel items -->
+                            <div class="carousel-inner text-center">
+                                <div class="active item">
+                                    <blockquote>
+                                        “What I liked about this is that it is not a recipe book alone. It walks you through the food that you can feed your baby as it grows. There was no neat book that told us what to feed when the kid starts teething, or when the kid has grown to be a toddler. It told us what to feed when the baby is cranky or acts fussy with food. This book helped us get exactly what we looking for.”
+                                        <cite> - Gururaj Potnis </cite>
+                                    </blockquote>
+                                </div>
+                                <div class="item">
+                                    <blockquote>
+                                       “As a pediatrician, I have always looked for recipes for children that are made from natural and easily available ingredients at home. I am myself a cooking enthusiast and have believed that cooking at home inculcates healthy eating habits in growing children. Roma Sharma has made a wonderful contribution through this unique book by offering variety to fussy eaters and helping desperate mothers. Her own experience as the mother of two young children is reflected in this effort. The meals are also nutritionally well balanced.” 
+                                       <cite> - Dr. Anuradha H.S., Child and Teen consultant </cite>
+                                    </blockquote>
+                                </div>
+                                <div class="item">
+                                    <blockquote>
+                                       “We know of so many recipes but when it comes to cooking for toddlers we have only few in hand. Hence this book is an excellent guide to make baby food exciting and healthy. This book gives us an idea of a simple yet healthy way of cooking for our young ones.” 
+                                       <cite> - Dr. Rolika Keshri, Consultant Obstetrician &amp; Gynaecologist </cite>
+                                    </blockquote>
+                                </div>
+                                <div class="item">
+                                    <blockquote>
+                                       “This book is a very good initiative towards practising healthy eating habits for children right from an early age. Reviewing this book was a pleasant experience since it opens the window of mental exploration of gastronomic surprises for children, more for the "picky eaters" in particular.” 
+                                       <cite> - Ms. Vidhya R, Nutritionist </cite>
+                                    </blockquote>
+                                </div>
+                            </div>                                         
+                        </div>            
+                </div>
+
+            </div>
+    	</div>
+    </section>
+    <!-- End Testimonials Section -->
+
+    <!-- Author Section -->
+    <section class="information" id="menu-author">
+    	<div class="container">
+    		<div class="wrapp">
+
+	    		<!-- Title -->
+		        <div class="row-fluid text-center title">
+		            <div class="divider"></div>
+		            <h1>About the Author - Roma Sharma</h1>
+		            <p>Roma is a software engineer by education and a chef by passion. After working for 6 years in the IT industry she turned a home maker.</p>
+		        </div>
+		        <!-- End Title -->
+    			
+    			<div class="row-fluid box one" style="margin-bottom: 20px;">
+    				<div class="span6">
+    					<img src="img/roma/roma_trisha.jpg" alt="roma">
+    				</div>
+    				<div class="span6">
+    					<h3>Roma Sharma </h3>
+              <p> With two kids now she spends most of her time creating new dishes to excite them with. Besides cooking, she has hobbies like photography and blogging. She loves experimenting with different types of cuisines and seldom leaves a restaurant without learning something new.</p>
+
+              <p>When Roma first had a baby she realized that baby food is a confusing subject. The type of food that can be fed to a baby at each stage of growth is something that needs to be checked every time something new is introduced. Her baby’s pediatrician was helpful in this regard. She would clarify doubts on ingredients permitted for the baby at each stage. She also had the good fortune of talking to her grandmother about the dishes she use to feed her kids. Her mother shared knowledge she had on medicinal and travel food.</p>
+
+            </div>
+          </div>
+
+          <div class="row-fluid box one">
+            <div class="span6">
+              <p>Roma started <a href="http://romasharma.com">blogging</a> these recipes when her first baby was 8 months old. Along with blogging, she started writing this book when she introduced solids to her first baby 4 years ago. Now with another 18 - month old she has updated more recipes and has compiled all the information she has, to create a book that is easy to consume.</p>
+            </div>
+
+            <div class="span6">
+              <p>You can follow me on twitter (<a href="http://twitter.com/romasharma">@romasharma</a>), friend me on facebook or just drop me a mail at roma(at)romasharma(dot)com</p>
+</p>
+    				</div>
+    			</div>
+
+    		</div>
+    	</div>
+    </section>
+    <!-- End Author Section -->
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="wrapp">
+
+                <div class="row-fluid">
+                    <div class="span6 fitem">
+                        <h2>Roma Sharma Publications</h2>
+                        <p>Yes, I am the author, photographer, book designer and now a book publisher as well. Do get in touch with me if you are planning to self-publish your book.</p>
+                    </div>
+                    <div class="span6 fitem">
+                        <h2>contact information</h2>
+                        <ul class="contact">
+                            <li class="mail">roma@romasharma.com</li>
+                            <li class="tel">+91-80-26968741</li>
+                            <li class="address">D402, Brindavan Renaissance, Uttarahalli Main Road Subramanyapura, Bangalore</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+
+
+    <!-- Copyright Section -->
+    <section class="copyright">
+        <div class="container">
+            <div class="wrapp">
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h6>&copy;2013 Roma Sharma Publications. All rights reserved </h6>
+                    </div>
+                    <ul class="social span6">
+                        <li title="Twitter" class="tooltip_hover"><a href="https://twitter.com/romasharma"  target="_blank"><i class="icon-twitter"></i></a></li>
+                        <li title="Facebook" class="tooltip_hover"><a href="https://www.facebook.com/babyfoodrecipes"  target="_blank"><i class="icon-facebook"></i></a></li>
+                        <li title="Linkedin" class="tooltip_hover"><a href="#"><i class="icon-linkedin"></i></a></li>
+                        <li title="Google Plus" class="tooltip_hover"><a href="https://plus.google.com/103018623153251025399?prsrc=3"><i class="icon-google-circles"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Copyright Section -->
+
+
+    <a href="#" class="scrollup"><i class="icon-up-open"></i></a>      
+	    
+
+	<!-- ======================= JQuery libs =========================== -->
+		<script type="text/javascript" src="js/jquery.1.8.2.js"></script>
+        
+        <!-- Bootstrap -->
+        <script src="js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+
+        <!--Scroll To-->         
+        <script src="js/nav/jquery.scrollTo.js"></script> 
+        <script src="js/nav/jquery.nav.js"></script> 
+    
+        <!--Retina Support-->
+        <script src="js/retina/retina.js" type="text/javascript"></script>
+
+        <!-- Fancybox lightbox -->
+        <script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+        <!-- Video Responsive-->
+        <script src="js/jquery.fitvids.min.js" type="text/javascript"></script>
+        <script src="js/jquery.placeholder.min.js" type="text/javascript"></script>
+
+        <!-- Custom -->
+        <script type="text/javascript" src="js/jquery-func.js"></script>
+	<!-- ======================= End JQuery libs ======================= -->
+	    
+    
+</body>
+</html>
