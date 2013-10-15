@@ -90,9 +90,9 @@
 
 /*--------------------------------------------------------------------------- Hover Animations ------------------------------*/
 
-	$('header .buttons a, .information a.btn, .newsletter .btn[type="submit"]').hover(function() {
+	/*$('header .buttons a, .information a.btn, .newsletter .btn[type="submit"]').hover(function() {
 		$(this).toggleClass('animated bounce');
-	});
+	});*/
 
 	$('.pricing-table, .features .item').hover(function() {
 		$(this).toggleClass('animated pulse');
