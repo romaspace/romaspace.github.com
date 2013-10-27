@@ -4517,10 +4517,10 @@ to {
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300");
 
 /* Fancybox Lightbox */
-@import url("fancybox/jquery.fancybox.css");
+@import url("/fancybox/jquery.fancybox.css");
 
 /* CSS Animations */
-@import url("animations/animate.css");
+@import url("/animations/animate.css");
 
 
 /* General -----------------------------*/
@@ -5713,15 +5713,9 @@ footer ul.faq li a:hover{
 	}
 
 
-
-
-
 }
 
-
-
-
-
+  .group { padding-top: 130px }
 /* ---------------------------------------------------------------------- */
 /*	Mobile Version 480px
  /* ---------------------------------------------------------------------- */

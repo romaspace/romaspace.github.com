@@ -318,9 +318,9 @@ b=b.innerWidth()-b.height(99).innerWidth();a.remove();return b});if(f.support.fi
 
 /*--------------------------------------------------------------------------- Tooltip-------------------------------*/
 	
-	if( $.fn.tooltip() ) {
-		$('[class="tooltip_hover"]').tooltip();
-	}
+	//if( $.fn.tooltip() ) {
+	//	$('[class="tooltip_hover"]').tooltip();
+	//}
 
 
 
