@@ -1,30 +1,14 @@
 ---
 permalink: /carrot-halwa
-layout: blue
+layout: post
 title: Carrot Halwa
+img_src: /images/carrot_halwa.JPG
 published: true
 categories:
 - baby food recipes
 ---
-<div class="container post group">
-  <div class="wrapp">
-    <div class="row-fluid">
 
-      <div class="text-center title">
-        <div class="divider"></div>
-        <h1>Carrot Halwa</h1>
-      </div>
-    </div>
-
-    <div class="row-fluid">
-
-      <div class="span6">
-        <IMG class="recipe" SRC="/images/carrot_halwa.JPG" />
-      </div>
-
-      <div class="span6">
-
-
+<div class="blog-content">
         <p>Babies at this age can not be given anything sweet so this halwa (or mash) is a welcome change as it contains the natural sweetness of carrots and raisins. It can alternately be made by other sweet vegetables like beetroot, pumpkin or sweet potato.
 
         If your baby doesn't have a sweet tooth you can use bottle gourd instead.</p>
@@ -58,13 +42,13 @@ categories:
 
         </ol>
 
-        <h2>Please Note</h2>
+        <h2>Please Note :</h2>
 
         <div><ul>
 
             <li>You can make beetroot, pumpkin, sweet potato or bottle gourd halwa in the same method as above.</li>
 
-            <li>You can also add <a href='#recipe_16'>dry fruit mix</a> to this halwa before serving.</li>
+            <li>You can also add dry fruit mix to this halwa before serving.</li>
 
             <li>Once the baby is over 10 months old you can add 1/2 teaspoon of jaggery and 1 tablespoon of thickened milk to this halwa for a better taste (thickened milk is not condensed milk. It's milk which is boiled and reduced to half. It does not contain any sugar).</li>
 
@@ -76,7 +60,7 @@ categories:
 
 
 
-        <h2>Nutritional Facts</h2>
+        <h2>Nutritional Facts :</h2>
 
         <ul>
 
@@ -85,7 +69,4 @@ categories:
         </ul>
 
 
-      </div>
-    </div>
-  </div>
 </div>

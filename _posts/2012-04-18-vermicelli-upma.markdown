@@ -2,17 +2,17 @@
 permalink: /vermicelli-upma
 layout: post
 title: Vermicelli Upma
+img_src: /images/vermicelli_upma.JPG
 published: true
 categories:
 - baby food recipes
 ---
-<div class="post group">
-<IMG SRC="/images/vermicelli_upma.JPG" class="recipe" /></p>
-<h2>Upma</h2>
+
+<div class="blog-content">
 
 <p>Upma can be made from a variety of base ingredients like semolina, wheat/ rice/ ragi vermicelli, brown/ white beaten rice, etc. Using your child's favorite vegetables and alternate base ingredients you can creatively make an upma to suit your baby.</p>
 
-<h3>Ingredients :</h3>
+<h2>Ingredients :</h2>
 
 <ul>
 
@@ -29,7 +29,7 @@ categories:
 </ul>
 
 
-<h3>Procedure :</h3>
+<h2>Procedure :</h2>
 
 <ol>
 
@@ -45,7 +45,7 @@ categories:
 
 </ol>
 
-<h3>Please Note</h3>
+<h2>Please Note :</h2>
 
 <div><ul>
 
@@ -57,12 +57,12 @@ categories:
 
 </div>
 
-<h3>Nutritional Facts</h3>
+<h2>Nutritional Facts :</h2>
 
 <div class="nutrition">
 <ul>
 
-<li>Brown beaten rice is a <a href='#brown_rice'>nutritive option</a> as it's made from <a href="http://en.wikipedia.org/wiki/Brown_rice">brown rice</a> which is rich in vitamins and fiber. </li>
+<li>Brown beaten rice is a as it's made from brown rice which is rich in vitamins and fiber. </li>
 
 <li>The healthiest option of base ingredient is ragi vermicelli although it might not taste as good as the wheat or rice varieties. </li>
 
@@ -70,7 +70,7 @@ categories:
 
 </div>
 
-<h3>Alternate Upma varieties :</h3>
+<h2>Alternate Upma varieties :</h2>
 <p style="margin-top:0">In the above recipe, instead of beaten rice -</p>
 
 <ul>

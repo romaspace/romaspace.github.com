@@ -1,8 +1,20 @@
 ---
-layout: default
+layout: blue
 ---
 
-{{ content }}
+  <div class="blog-container row-fluid wrapp">
+      <div class="span6">
+        <h2>{{ page.title }}</h2>
 
-{% include fb_comments.html %}
+        {{ content }}
+
+       <!-- {% include fb_comments.html %} -->
+      </div>
+
+      <div class="span6">
+         <img src= {{ page.img_src }} class="recipe" />
+      </div>
+
+  </div>
+            
 

@@ -4596,6 +4596,11 @@ h2{
 	color: #23313a;
 }
 
+h3{
+	font-size: 1.5em;
+	color: #23313a;
+}
+
 [class^="icon-"], [class*=" icon-"] {
 	background: none;
 }
@@ -5522,11 +5527,21 @@ footer ul.faq li a:hover{
 
 
 
+.blog-container {
+  padding-top: 130px;
+}
 
+.blog-container img {
+  border: 1px solid grey;
+  margin: 10px;
+  max-width: 400px;
+  }
 
-
-
-
+.blog-content ul, .blog-content ol {
+  font-size: 1.4em;
+  line-height: 1.6em;
+  list-style: inherit;
+  }
 
 
 

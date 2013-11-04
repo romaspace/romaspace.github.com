@@ -2,16 +2,14 @@
 permalink: /aata-halwa
 layout: post
 title: Aata Halwa
+img_src: /images/aata_halwa.JPG
 published: true
 categories:
 - baby food recipes
 ---
-<div class="post group">
-<img src="/images/aata_halwa.JPG" alt="wheat flour halwa" class="recipe" />
-<h2>Wheat flour Halwa</h2>
 
 <div class="blog-content">
-<h3>Ingredients :</h3>
+<h2>Ingredients :</h2>
 <ul>
 <li>2 teaspoons of ghee</li>
 <li>4 teaspoons of wheat flour (aata)</li>
@@ -22,7 +20,7 @@ categories:
 <li>Fruits of your choice (optional)</li>
 </ul>
 
-<h3>Procedure :</h3>
+<h2>Procedure :</h2>
 <ol>
 <li>Heat ghee in a heavy-bottomed pot.</li>
 <li>Add raisins and set aside once they swell.</li>
@@ -34,13 +32,13 @@ categories:
 <li>Once cool, you can add mashed banana (small variety)/ sapota/ steamed apple to the halwa.</li>
 </ol>
 
-<h3>Please Note</h3>
+<h2>Please Note :</h2>
 <blockquote>
 <ul>
 <li>You can use fine semolina (chiroti rawa) instead of wheat flour in this halwa.</li>
-<li>You can also add a teaspoon of <a href='#recipe_16'>dry fruit mix</a> to the halwa once it's ready. </li>
+<li>You can also add a teaspoon of powdered dry fruit mix to the halwa once it's ready. </li>
 </ul>
 </blockquote>
 </div>
-</div>
+
 

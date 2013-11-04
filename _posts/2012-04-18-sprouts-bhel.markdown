@@ -2,18 +2,18 @@
 permalink: /sprouts-bhel
 layout: post
 title: Sprouts Bhel
+img_src: /images/sprouts_bhel.JPG
 published: true
 categories:
 - baby food recipes
 ---
-<div class="post group">
-<IMG SRC="/images/sprouts_bhel.JPG" class="recipe" />
-<h2>Moong Sprouts Bhel</h2>
+<div class="blog-content">
+
 <p>The vitamins, minerals and protein content of green moong dal can be substantially increased by sprouting.
 
 Although sprouts are best eaten raw, here we blanch the sprouts for a few minutes in boiling water so it's easy for the baby to swallow. When mixed with finely chopped salad, it serves as a nutritious and filling breakfast.</p>
 
-<h3>Ingredients :</h3>
+<h2>Ingredients :</h2>
 <ul>
 
 <li>1/4 cup sprouted whole green moong dal</li>
@@ -30,7 +30,7 @@ Although sprouts are best eaten raw, here we blanch the sprouts for a few minute
 
 </ul>
 
-<h3>Procedure :</h3>
+<h2>Procedure :</h2>
 
 <ol>
 
@@ -42,14 +42,14 @@ Although sprouts are best eaten raw, here we blanch the sprouts for a few minute
 
 </ol>
 
-<h3>Please Note</h3>
+<h2>Please Note :</h2>
 <div><ul>
 <li>It's advisable to feed homemade sprouts to the baby. Readily available sprouts sold in the market could be contaminated. Since sprouts fall in the category of uncooked food, we can not depend on anything except what is made at home.</li>
 
 </ul>
 
 </div>
-<h3>Nutritional Facts</h3>
+<h2>Nutritional Facts :</h2>
 
 <div class="nutrition">
 

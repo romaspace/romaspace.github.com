@@ -2,20 +2,18 @@
 permalink: /moong-chaat
 layout: post
 title: Moong Chaat
+img_src: /images/moong_chaat.JPG
 published: true
 categories:
 - baby food recipes
 ---
-<div class="post group">
-<IMG SRC="/images/moong_chaat.JPG" class="recipe"/>
-<h2>Green Moong Chaat</h2>
-
+<div class="blog-content">
 
 <p>Once moong dal is soaked and boiled, it serves as a great pick-n-eat dish for the baby. Gently mash each grain between your fingers and place it in front of the baby to eat on his own. If your baby (like mine) loves to put everything in the mouth this is definitely going to be a treat.
 
 You just need to ensure that he doesn't stuff too many at once. If your baby isn't able to eat on his own, it's really ok. You can mash and feed him the grains as well. Its just that allowing him to eat himself is helpful in making him independent.</p>
 
-<h3>Ingredients :</h3>
+<h2>Ingredients :</h2>
 
 <ul>
 
@@ -29,7 +27,7 @@ You just need to ensure that he doesn't stuff too many at once. If your baby isn
 
 </ul>
 
-<h3>Procedure :</h3>
+<h2>Procedure :</h2>
 
 <ol>
 
@@ -49,7 +47,7 @@ You just need to ensure that he doesn't stuff too many at once. If your baby isn
 
 </ol>
 
-<h3>Please Note</h3>
+<h2>Please Note :</h2>
 
 <ul>
 
@@ -61,7 +59,7 @@ not lose out on its nutrition.</li>
 
 </ul>
 
-<h3>Nutritional Facts</h3>
+<h2>Nutritional Facts :</h2>
 
 <ul>
 
