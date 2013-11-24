@@ -4,6 +4,7 @@ exclude: [bin, Gemfile, Gemfile.lock]
 markdown: kramdown
 permalink: pretty
 paginate: 10
+excerpt_separator: <!--more--> 
 
 kramdown:
   entity_output: symbolic

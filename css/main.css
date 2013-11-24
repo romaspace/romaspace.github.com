@@ -4779,7 +4779,7 @@ nav .navbar-inner{
 /* Header ------------------------------*/
 header {
 	display: block;
-	background: #1fb4da url("../img/slider-bg.png") bottom center repeat;
+	background: #FFFF ; /* #F5B4CC url("../img/slider-bg.png") bottom center repeat; ----*/
 	padding:  130px 0 0 0;
 	color: #fff;
 }
@@ -5523,9 +5523,6 @@ footer ul.faq li a:hover{
 .scrollup:hover { 
 	opacity: 0.7;
 }
-
-
-
 
 .blog-container {
   padding-top: 130px;

@@ -1,20 +1,10 @@
 ---
-layout: blue
+layout: master
 ---
 
-  <div class="blog-container row-fluid wrapp">
-      <div class="span6">
-        <h2>{{ page.title }}</h2>
+<h1 class="recipe_title">{{page.title}}</h1>
+<img src="{{ page.img_src }}" class="img_post" alt="{{page.alt}}"  align="right" >
+{{ content }}
 
-        {{ content }}
-
-       <!-- {% include fb_comments.html %} -->
-      </div>
-
-      <div class="span6">
-         <img src= {{ page.img_src }} class="recipe" />
-      </div>
-
-  </div>
-            
+<!-- <img src="../img/roma/apple_sauce.JPG" align="right" alt="apple sauce" class="img_post"> -->
 

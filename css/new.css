@@ -1,0 +1,254 @@
+body {
+  font-family: 'Delius Swash Caps', cursive;
+  font-size : 16px;
+  background: url("/img/yellow_weave.png") repeat fixed center bottom;
+  color: #96a2a6; 
+}
+
+div.container {
+  width: 960px;
+  margin: 20px auto;
+  padding: 10px; 
+  box-shadow: 0 0 5px rgba(0,0,0,0.4);
+  z-index: 2;
+  background: white;
+}
+
+div.nav-wrap {
+  /*background: url("/img/nav-bg.png") no-repeat center top;*/
+  /*border-radius: 10px 10px 0 0;*/
+  border-bottom: 1px solid darkslategray;
+  height: 60px;
+  top: 10px;
+  color: lightgray;
+  font-size : 10px;
+  padding : 0px;  
+}
+
+div.nav-wrap h1 {
+  display: inline;
+  line-height: 56px;
+  color: #cd4d7d;
+
+}
+
+div.nav-wrap a, div.nav-wrap a:visited {
+  padding: 0 40px;
+  color: black;
+  text-decoration: none;
+}
+
+div.nav-wrap a:hover h1{
+  color: darkslategray;
+}
+
+div.nav-wrap a.active h1{
+  color: darkslategray;
+}
+    
+.header {
+  text-align: center;
+  color: #cd4d7d; /* old pink :#cd4d7d , flower pink : #d84d45 */
+  font-size: 20px;
+  text-align: center;
+ /* font-family: 'Dancing Script', cursive;*/
+}
+
+.header h1{
+  margin: 10px auto;
+}  
+
+.header a, .header a:visited h1{
+  color: #cd4d7d;
+  text-decoration: none;
+}
+
+.content {
+  font-family: arial;
+  min-height: 600px;
+  background-color: white;
+}
+
+.mainbar {
+  width: 767px;
+  min-height: 620px;
+  float: left;
+  border-left: 1px solid gray;
+}
+
+.mainbar h1 a{
+  color: darkgray;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 0;
+  margin:10px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+.mainbar h1 a:visited{
+  color: darkgray;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 0;
+  margin:10px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+  
+.mainbar a, .mainbar a:visited {
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+}
+
+.sidebar {
+  width: 192px;
+  float: left;
+  text-align: center;
+}
+
+.sidebar a.active_cat h2{
+  font-weight: bold;  
+}
+
+.sidebar h1 {
+   font-size: 1.3em;
+   font-weight: bold;
+   color: darkslategray;    
+}
+
+
+.sidebar h2{
+   font-size: 1.1em;
+   font-weight: normal;
+   color: darkslategray; 
+}
+
+.sidebar h3{
+   font-size: 1em;
+   font-weight: bold;
+   color: darkslategray; 
+   text-align: left;
+   padding: 10px;
+   padding-bottom: 0px;
+   margin-bottom: 0px;
+}
+
+.sidebar a, .sidebar a:visited {
+  text-decoration: none;
+  color: darkslategray;
+}
+
+.sidebar ul li {
+  text-align: left;
+}
+
+.sidebar ul {
+  padding-left: 20px;
+  list-style-image: url('sqpurple.gif');
+}
+
+.img_post {
+  width: 350px;
+  margin: 15px 10px 10px 20px; /* top right bottom left */
+  box-shadow: 5px 5px 3px #888888;  
+}
+
+.img_book {
+  width: 300px;
+  margin: 0px 20px;
+}
+
+.recipe-content {
+  text-align: left;
+  text-align:justify;
+  font-size: 1.1em;
+  line-height: 1.5em; 
+  padding: 2px 10px 10px 10px;
+  margin: 0px 10px 10px;
+}
+
+.recipe-content p{
+  margin: 1em;
+}
+
+.btn a, .btn a:visited{
+	color: lightgray;
+	border: 3px solid lightgray;
+	background: #cd4d7d;
+	box-shadow: none;
+	border-top-left-radius: 30px 30px;
+	border-bottom-left-radius: 30px 30px;
+	border-top-right-radius: 30px 30px;
+	border-bottom-right-radius: 30px 30px;
+	padding: 5px 15px; 
+	margin: 5px 20px 35px 10px;
+	text-shadow: none;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+.span6 {
+	width: 460px
+}
+
+.recipe-content h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5em;
+}
+
+.recipe-content h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.1em;
+}
+
+.recipe-content h3{
+  font-family: 'Dancing Script', cursive;
+  font-size: 0.9em;
+}
+
+.recipe_title {
+  background-color: #cd4d7d;
+  opacity: 0.5;
+  color: white;
+  /*border: 1px solid lightgray;*/   
+  font-size: 2em;
+  padding: 0;
+  margin:0;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+.footer {
+  width: 970px; /* THIS IS HIGH, RIGHT??? */
+  color: darkslategray;
+  background: lightgray;  
+  box-shadow: 0 0 5px rgba(0,0,0,0.4);
+  z-index: 2;
+  margin: 20px auto;
+  padding: 5px;
+  font-size: 8px;  
+  font-family: arial;
+}  
+
+h1.category_recipe_title {
+  margin: 5px 0;
+}
+  
+p.author {
+  margin: 46px 10px 0 0;
+  float: right;
+  font-weight: bold;
+  font-style: italic;
+}
+
+img.profile {
+  float: right;
+  margin: 25px;
+}
+
+.clear {
+  clear: both;
+}
