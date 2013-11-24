@@ -1,0 +1,18 @@
+---
+title: 8-9 months
+layout: category
+category_nav: 8-9-months
+---
+
+<!-- This loops through the paginated posts -->
+{% for post in site.categories["8-9 months"] %}
+  <p class="author">
+    <span class="date">{{ post.date | date_to_string }}</span>
+  </p>
+  <h1 class="category_recipe_title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <img src="{{ post.img_src }}" class="img_post" alt="{{post.alt}}"  align="right" >  
+  <div class="recipe-content">
+    {{ post.excerpt }}
+      <div class="btn"><a href="{{post.url}}">Read More</a></div>
+  </div>
+{% endfor %} <!-- for post ends -->
