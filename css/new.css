@@ -224,7 +224,7 @@ div.nav-wrap a.active h1{
 .footer {
   width: 970px; /* THIS IS HIGH, RIGHT??? */
   color: darkslategray;
-  background: lightgray;  
+  background: white;  
   box-shadow: 0 0 5px rgba(0,0,0,0.4);
   z-index: 2;
   margin: 20px auto;
@@ -247,6 +247,11 @@ p.author {
 img.profile {
   float: right;
   margin: 25px;
+}
+
+img.icons {
+  width: 30px;
+  margin: 5px;
 }
 
 .clear {
