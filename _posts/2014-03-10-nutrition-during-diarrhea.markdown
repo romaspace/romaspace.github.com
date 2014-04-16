@@ -10,18 +10,20 @@ categories:
 - home remedies
 ---
 <div class="recipe-content">
+<p>
 Babies can have a bout of diarrhea due to any reason like a stomach infection, teething, eating excessive food that is laxative 
 in nature (raisins, black salt, milk shakes, etc;) , reaction to antibiotics etc; 
-<div>
+</p>
+<p>
 Another common cause for diarrhea is heat. During summer months its common to have food, especially diary products, go bad easily. Hence as a precautionary method 
 avoid feeding the baby any diary products (milk, curd, etc,) or uncooked food (chutneys, sprouts, salad, etc,) bought from outside. 
-</div>
+</p>
 <!--more-->
 
-<div>
+<p>
 If the baby suffers from diarrhea you can change his/her nutritional intake. Here are some dishes that are 
 perfect for controlling a diarrhea :
-</div>
+</p>
 <ul>
 <li><b>Sabudana Porridge :</b> Soak 1 tablespoon Sabudana or Sago seeds till soft. Boil them in a cup of water till they turn translucent. 
 Strain and feed the water to the baby.</li>
