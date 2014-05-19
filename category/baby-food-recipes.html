@@ -7,7 +7,7 @@ nav: baby-food-recipes
 <!-- This loops through the paginated posts -->
 {% for post in site.categories["baby food recipes"] %}
   <p class="author">
-    <span class="date">{{ post.date }}</span>
+    <span class="date">{{ post.date | date_to_string }}</span>
   </p>
   <h1 class="category_recipe_title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <img src="{{ post.img_src }}" class="img_post" alt="{{post.alt}}"  align="right" >
