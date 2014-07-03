@@ -173,6 +173,10 @@ div.nav-wrap a.active h1{
   margin: 1em;
 }
 
+.btn {
+  margin-bottom: 50px;
+}
+
 .btn a, .btn a:visited{
 	color: lightgray;
 	border: 3px solid lightgray;
@@ -216,6 +220,7 @@ div.nav-wrap a.active h1{
   font-size: 2em;
   padding: 0;
   margin:0;
+  margin-bottom : 20px;
   text-align: center;
   font-family: 'Dancing Script', cursive;
 }
@@ -256,4 +261,5 @@ img.icons {
 
 .clear {
   clear: both;
+  margin: 10px;
 }
