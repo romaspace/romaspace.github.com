@@ -53,15 +53,16 @@ the glycemic index of ragi low, which means, it helps in maintaining the blood s
 </ol>
 
  <h2>Notes :</h2>
-   Please mix in more ragi powder to alter the consistency of the paste
-   as you like.
-   You can also use milk instead of water while feeding an older baby
-   (please check with your doctor before starting milk).
-   If you find sieving the powder in Step 5 too tedious, you can try
+   <ol>
+   <li>Please mix in more ragi powder to alter the consistency of the paste
+   as you like.</li>
+   <li>You can also use milk instead of water while feeding an older baby
+   (please check with your doctor before starting milk).</li>
+   <li>If you find sieving the powder in Step 5 too tedious, you can try
    skipping it. You need to make sure that the powder is fine ground and
    the baby is able to swallow the porridge made, easily. Sieving
-   however, is still the better option.
-
+   however, is still the better option.</li>
+   </ol>
  <h2>Nutritional Facts :</h2>
    Finger Millet or Ragi is rich in Calcium, Protein and Iron. Sprouting
    increases the nutritional value of ragi.
