@@ -1,0 +1,72 @@
+---
+permalink: /ragi-idly
+layout: post
+title: Ragi Idly
+img_src: /img/roma/ragi_idly.JPG
+alt: Ragi Idly
+published: true
+category_nav: 8-9-months
+categories:
+- baby food recipes
+- 8-9 months
+---
+
+
+<div class="recipe-content">
+This is one of the most nutritious idlies possible as it's made from sprouted
+ragi (finger millet) which is rich in protein. This is also why it makes it a
+filling dish, heavier than the usual rice idlies we eat.
+Ragi idles can be fed to babies 8 months onwards (please check with your doctor before adding salt to the batter). 
+This dish serves as a nutritious breakfast for adults as well. 
+<!--more-->
+
+<h2>Ingredients :</h2>
+<ul>
+<li>1 cup whole grain ragi (finger millet)</li>
+<li>1 cup idly rice</li>
+<li>3/4 cup skinned urad dal (white whole grains)</li>
+<li>1 teaspoon fenugreek (methi) seeds</li>
+<li>Few drops of ghee</li>
+</ul>
+
+
+<h2>Procedure :</h2>
+<ol>
+<li>Soak ragi for 12 hours. Drain it and leave it in a muslin cloth or a
+strainer for another 12 hours till it sprouts.</li>
+<li>Meanwhile separately soak urad dal, methi and rice for 10 - 12 hours
+(overnight works fine).</li>
+<li>Grind urad dal in a mixer grinder till you get a fine paste. Add methi
+seeds and ragi. Continue to grind into a fine paste.</li>
+<li>Now add rice and grind leaving rice a bit coarse. This gives the idly a
+good texture.</li>
+<li>Leave this batter to ferment overnight with a pinch of salt (check with
+doctor before adding salt).</li>
+<li>Next day, the batter would have risen so ensure you have used a
+slightly big container.</li>
+<li>Grease idly molds with ghee and pour a ladle of batter in each mold.</li>
+<li>Steam the idlies for 10 - 15 minutes on medium heat.</li>
+<li>Mash and feed warm with ghee and dal.</li>
+</ol>
+
+
+
+<h2>Please Note :</h2>
+<div>
+<ul>
+<li>Dipping idly in dal before feeding makes it easier for the baby to
+swallow it.</li>
+<li>You can add recommended vegetables like beans, carrot and
+capsicum to the dal to make it more nutritious.</li>
+<li>The dal used can be moong or toor based on your baby's taste.</li>
+</ul>
+</div>
+
+<h2>Nutritional Facts :</h2>
+<ul>
+<li>Ragi idlies are more nutritious than rice idlies. Ragi is rich in calcium
+and protein.</li>
+<li>Using sprouted ragi increases its nutritional value.</li>
+</ul>
+
+</div>
